@@ -80,7 +80,7 @@ export const CalculatorContextProvider = ({children}) => {
                 break;
 
                 case "/":
-                    result = parseFloat(currentValue) / parseFloat(memory);
+                    result = parseFloat(memory) / parseFloat(currentValue);
                 break;
 
                 case "%":
